@@ -1,0 +1,24 @@
+<?
+class Blog_controller extends CI_Controller {
+
+    function blog()
+    {
+		$config['hostname'] = "localhost";
+$config['username'] = "myusername";
+$config['password'] = "mypassword";
+$config['database'] = "mydatabase";
+$config['dbdriver'] = "mysql";
+$config['dbprefix'] = "";
+$config['pconnect'] = FALSE;
+$config['db_debug'] = TRUE;
+
+$this->load->model('Model_name', '', $config);
+
+        $this->load->model('Blog');
+
+        $data['query'] = $this->Blog->get_last_ten_entries();
+
+        $this->load->view('blog', $data);
+    }
+}
+?>

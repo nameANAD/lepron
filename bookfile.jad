@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+MIDlet-Vendor: tequilacat
+MIDlet-Version: 2.2.18
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-1: license, , BookReaderMidlet
+MIDlet-Name: license
+MicroEdition-Profile: MIDP-1.0
+Nokia-MIDlet-Category: Applications
+MIDlet-Jar-Size: 51342
+MIDlet-Jar-URL: bookfile.jar
