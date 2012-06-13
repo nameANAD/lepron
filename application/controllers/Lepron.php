@@ -7,6 +7,7 @@
 			$this->load->helper(array('form', 'url'));
 			$this->load->model('Lepron_Model','model',TRUE);
 			$this->load->library('session');
+			// sample file edit
 			
 		}
 		
@@ -14,6 +15,7 @@
 			$this->load->view('login');
 			$this->load->view('SignUp');
 			$this->load->view('home_body');
+			// sample file edit
 		}
 		
 		public function user_home() {
@@ -25,6 +27,7 @@
 			else {
 				redirect('/Lepron/index');
 			}
+			// sample file edit
 		}
 		
 		public function edit_account() {
@@ -35,6 +38,7 @@
 			else {
 				redirect('/Lepron/index');
 			}
+			// sample file edit
 		}
 		
 		public function change_password() {
@@ -55,7 +59,7 @@
 				redirect('/Lepron/index');
 			}
 		}
-
+    // sample file edit
 	
 	}
 ?>
